@@ -1,0 +1,64 @@
+/* @import "./base.css"; */
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: rgb(86, 18, 91);
+  background: linear-gradient(
+    339deg,
+    rgba(86, 18, 91, 1) 0%,
+    rgba(40, 10, 80, 1) 100%
+  );
+  /* Убирает полосы */
+  height: 100vb;
+  text-align: center;
+  overflow: hidden;
+}
+
+.main_link {
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: "Nabla", cursive, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 5em;
+  translate: transform 500ms ease;
+  cursor: pointer;
+}
+
+h1:hover {
+  transform: scale(1.1) translateY(-5px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.selectors {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+  margin: 20px auto 0;
+}
+
+.resultClass {
+  /* margin-top: 20px; */
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 3px;
+  cursor: default;
+  padding-bottom: 7px;
+  border-bottom: 3px solid #fff;
+  display: table;
+  margin: 20px auto;
+}
